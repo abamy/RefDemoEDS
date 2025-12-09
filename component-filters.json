@@ -1,7 +1,9 @@
 [
   {
     "id": "main",
-    "components": ["section"]
+    "components": [
+      "section"
+    ]
   },
   {
     "id": "section",
@@ -36,27 +38,43 @@
   },
   {
     "id": "accordion",
-    "components": ["accordion-item"]
+    "components": [
+      "accordion-item"
+    ]
   },
   {
     "id": "cards",
-    "components": ["card"]
+    "components": [
+      "card"
+    ]
   },
   {
     "id": "carousel",
-    "components": ["card"]
+    "components": [
+      "card"
+    ]
   },
   {
     "id": "columns",
-    "components": ["column"]
+    "components": [
+      "column"
+    ]
   },
   {
     "id": "column",
-    "components": ["button", "image", "text", "title", "video"]
+    "components": [
+      "button",
+      "image",
+      "text",
+      "title",
+      "video"
+    ]
   },
   {
     "id": "tabs",
-    "components": ["tabs-item"]
+    "components": [
+      "tabs-item"
+    ]
   },
   {
     "id": "form",

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:experienceleague.adobe.com)",
+      "Bash(find:*)",
+      "Bash(npm run build:json:*)",
+      "Bash(cat:*)",
+      "Bash(git checkout:*)",
+      "Bash(grep:*)",
+      "Bash(npm run build:json:filters:*)",
+      "Bash(ls:*)",
+      "Bash(jq:*)",
+      "Bash(comm -23:*)",
+      "Bash(comm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

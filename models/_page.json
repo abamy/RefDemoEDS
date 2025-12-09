@@ -11,96 +11,66 @@
         "component": "text",
         "valueType": "string",
         "name": "jcr:title",
-        "label": "Title"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "jcr:description",
-        "label": "Description"
-      },
-      {
-        "component": "aem-content-fragment",
-        "name": "theme_cf_reference",
-        "label": "Brand Theme",
-        "description": "Select the CF with authored values for the brand theme. This will be applied on the pages",
-        "valueType": "string",
-        "validation": {
-          "rootPath": "/content/dam"
-        }
-      },
-      {
-        "component": "select",
-        "name": "theme",
-        "label": "Theme",
-        "description": "Note: This takes priority over CF based theme.",
-
-        "options": [
-          {
-            "name": "default",
-            "value": ""
-          },
-          {
-            "name": "Rowenta Theme",
-            "value": "rowenta-theme"
-          },
-          {
-            "name": "Calor Theme",
-            "value": "calor-theme"
-          },
-          {
-            "name": "Krups Theme",
-            "value": "krups-theme"
-          },
-          {
-            "name": "Gray Theme",
-            "value": "gray-theme"
-          },
-          {
-            "name": "Red Theme",
-            "value": "red-theme"
-          },
-          {
-            "name": "Blue Theme",
-            "value": "blue-theme"
-          },
-          {
-            "name": "Green Theme",
-            "value": "green-theme"
-          },
-          {
-            "name": "WeHealthcare Theme",
-            "value": "wehealthcare-theme"
-          }
-        ]
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "js-files",
-        "multi": true,
-        "value": "",
-        "label": "JS Library URL(s)",
-        "description": "List of js libraries to include under head section of the page"
+        "label": "Title",
+        "required": true
       },
       {
         "component": "text",
         "valueType": "string",
         "name": "jcr:pagetitle",
-        "label": "Page Title"
+        "label": "Page Title",
+        "required": true
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "pageCategory",
-        "label": "Page Category"
+        "name": "jcr:description",
+        "label": "Description",
+        "required": true
       },
       {
         "component": "aem-tag",
         "name": "cq:tags",
         "label": "Tags",
         "valueType": "string",
-        "rootPath": "/content/cq:tags/reference-demo"
+        "rootPath": "/content/cq:tags/world-bank"
+      },
+      {
+        "component": "select",
+        "name": "theme",
+        "label": "Theme",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "Mango Haze",
+            "value": "mango-haze"
+          },
+          {
+            "name": "Lavender Chill",
+            "value": "lavender-chill"
+          },
+          {
+            "name": "Meadow Light",
+            "value": "meadow-light"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "pageName",
+        "label": "Page Name",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "pageCategory",
+        "label": "Page Category",
+        "required": true
       }
     ]
   },
