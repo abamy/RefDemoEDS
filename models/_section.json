@@ -79,9 +79,15 @@
             { "name": "Left Center Swoosh", "value": "sec-swoosh-type1" },
             { "name": "Left Top Swoosh", "value": "sec-swoosh-type3" },
             { "name": "Right Top Swoosh", "value": "sec-swoosh-type2" },
-            { "name": "Swoosh for BG inside container - Desktop", "value": "sec-swoosh-type5" },
+            {
+              "name": "Swoosh for BG inside container - Desktop",
+              "value": "sec-swoosh-type5"
+            },
             { "name": "Leaders profile swoosh", "value": "sec-swoosh-type6" },
-            { "name": "Primary Blue 90 theme Swoosh", "value": "sec-swoosh-primary-blue-90" }
+            {
+              "name": "Primary Blue 90 theme Swoosh",
+              "value": "sec-swoosh-primary-blue-90"
+            }
           ]
         },
         {
@@ -160,23 +166,32 @@
     {
       "id": "section",
       "components": [
-	      "button",
-      	"cards",
-      	"carousel",
-      	"columns",
-      	"contentfragment",
-      	"dm-asset",
-      	"dm-template",
-      	"fragment",
-      	"hero",
-      	"iframe",
-      	"image",
-      	"teaser",
-      	"text",
-      	"title",
-      	"video",
+        "button",
+        "action-button",
+        "cards",
+        "carousel",
+        "columns",
+        "contentfragment",
+        "button",
+        "dm-asset",
+        "dm-template",
+        "fragment",
+        "hero",
+        "image",
+        "quote",
+        "teaser",
+        "text",
+        "title",
+        "video",
+        "search",
+        "separator",
+        "tabs",
         "form",
-        "embed-adaptive-form"
+        "forex",
+        "accordion",
+        "embed-adaptive-form",
+        "find-a-doctor",
+        "products"
       ]
     }
   ]

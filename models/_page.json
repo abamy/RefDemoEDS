@@ -16,61 +16,63 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "jcr:pagetitle",
-        "label": "Page Title"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
         "name": "jcr:description",
         "label": "Description"
       },
       {
-        "component": "aem-tag",
-        "name": "cq:tags",
-        "label": "Tags",
-        "valueType": "string",
-        "rootPath": "/content/cq:tags"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "hostname",
-        "label": "Hostname",
-        "description": "Provide the hostname of author instance (without the ending slash) e.g. https://author-pXXXXX-eXXXXXXX.adobeaemcloud.com"
-      },
-      {          
-        "component": "aem-content",
+        "component": "aem-content-fragment",
         "name": "theme_cf_reference",
         "label": "Brand Theme",
         "description": "Select the CF with authored values for the brand theme. This will be applied on the pages",
         "valueType": "string",
         "validation": {
-            "rootPath": "/content/dam"
+          "rootPath": "/content/dam"
         }
       },
       {
-          "component": "select",
-          "name": "theme",
-          "label": "Theme",
-          "options": [
-            {
-              "name": "default",
-              "value": ""
-            },
-            {
-              "name": "Mango Haze",
-              "value": "mango-haze"
-            },
-            {
-              "name": "Lavender Chill",
-              "value": "lavender-chill"
-            },
-             {
-              "name": "Meadow Light",
-              "value": "meadow-light"
-            }
-          ]
+        "component": "select",
+        "name": "theme",
+        "label": "Theme",
+        "description": "Note: This takes priority over CF based theme.",
+
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "Rowenta Theme",
+            "value": "rowenta-theme"
+          },
+          {
+            "name": "Calor Theme",
+            "value": "calor-theme"
+          },
+          {
+            "name": "Krups Theme",
+            "value": "krups-theme"
+          },
+          {
+            "name": "Gray Theme",
+            "value": "gray-theme"
+          },
+          {
+            "name": "Red Theme",
+            "value": "red-theme"
+          },
+          {
+            "name": "Blue Theme",
+            "value": "blue-theme"
+          },
+          {
+            "name": "Green Theme",
+            "value": "green-theme"
+          },
+          {
+            "name": "WeHealthcare Theme",
+            "value": "wehealthcare-theme"
+          }
+        ]
       },
       {
         "component": "text",
@@ -84,14 +86,21 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "pageName",
-        "label": "Page Name"
+        "name": "jcr:pagetitle",
+        "label": "Page Title"
       },
       {
         "component": "text",
         "valueType": "string",
         "name": "pageCategory",
         "label": "Page Category"
+      },
+      {
+        "component": "aem-tag",
+        "name": "cq:tags",
+        "label": "Tags",
+        "valueType": "string",
+        "rootPath": "/content/cq:tags/reference-demo"
       }
     ]
   },
@@ -231,24 +240,24 @@
         "valueType": "string"
       },
       {
-          "component": "select",
-          "name": "style",
-          "label": "Style",
-          "options": [
-            {
-              "name": "default",
-              "value": ""
-            },
-            {
-              "name": "Flip",
-              "value": "flip"
-            },
-            {
-              "name": "Hover Effect",
-              "value": "hover-effect"
-            }
-          ]
-        }
+        "component": "select",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "Flip",
+            "value": "flip"
+          },
+          {
+            "name": "Hover Effect",
+            "value": "hover-effect"
+          }
+        ]
+      }
     ]
   },
   {

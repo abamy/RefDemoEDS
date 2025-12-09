@@ -6,27 +6,6 @@
     ]
   },
   {
-    "id": "section",
-    "components": [
-      "button",
-      "cards",
-      "carousel",
-      "columns",
-      "contentfragment",
-      "dm-asset",
-      "dm-template",
-      "fragment",
-      "hero",
-      "iframe",
-      "image",
-      "search",
-      "teaser",
-      "text",
-      "title",
-      "video"
-    ]
-  },
-  {
     "id": "cards",
     "components": [
       "card"
