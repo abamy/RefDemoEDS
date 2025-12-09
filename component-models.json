@@ -6676,6 +6676,17 @@
     ]
   },
   {
+    "id": "products",
+    "fields": [
+      {
+        "component": "commerce-category",
+        "name": "commerce-category",
+        "label": "Commerce Category",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "find-a-doctor",
     "fields": [
       {
@@ -6786,17 +6797,6 @@
         "label": "Submit URL",
         "description": "URL to redirect to when Book Appointment is clicked (if Submit Action is enabled)",
         "condition": { "==": [{ "var": "enableSubmitAction" }, true] }
-      }
-    ]
-  },
-  {
-    "id": "products",
-    "fields": [
-      {
-        "component": "commerce-category",
-        "name": "commerce-category",
-        "label": "Commerce Category",
-        "valueType": "string"
       }
     ]
   }
