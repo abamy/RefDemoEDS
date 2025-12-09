@@ -42,7 +42,7 @@
   --nav-text-color: var(--brand-nav-text-color, #ffffff);
   --footer-background-color: var(--brand-footer-background-color, #000);
   --footer-text-color: var(--brand-footer-text-color, #ffffff);
-  
+
   /* fonts */
   --body-font-family: 'Adobe Clean', roboto, roboto-fallback, sans-serif;
   --heading-font-family: 'Adobe Clean Bold', roboto-condensed, roboto-condensed-fallback, sans-serif;
@@ -325,6 +325,23 @@ body.gray-theme {
 }
 
 
+body.calor-theme {
+    --main-accent-color: hsl(324.9746192893deg, 87.5555555556%, 44.1176470588%);
+    --link-hover-color: hsl(324.9746192893deg, 87.5555555556%, 44.1176470588%);
+}
+body.krups-theme {
+    --main-accent-color: hsl(25.2307692308deg, 89.0410958904%, 57.0588235294%);
+    --link-hover-color: hsl(25.2307692308deg, 89.0410958904%, 57.0588235294%);
+}
+body.rowenta-theme {
+    --main-accent-color: hsl(210deg, 14.2857142857%, 21.9607843137%);
+    --link-hover-color: hsl(199.7014925373deg, 80.7228915663%, 32.5490196078%);
+}
+
+body.red-theme {
+  --main-accent-color: #DC2626;
+  --link-hover-color: #EF4444;
+}
 body.red-theme {
   --main-accent-color: #DC2626;
   --link-hover-color: #EF4444;
@@ -789,13 +806,13 @@ main > .section[data-sec-full-width="true"] > div {
 
 
 /* Section Background Colors */
-main .section.bg-theme {  
+main .section.bg-theme {
   background-color: var(--main-accent-color);
   color: var(--text-color);
 }
 main .section.bg-dark {
   background-color: var(--dark-color);
-  color: var(--text-light); 
+  color: var(--text-light);
 }
 main .section.bg-light {
   background-color: var(--light-color);
@@ -805,7 +822,7 @@ main .section.bg-light {
 /* Section background image */
 /* main .section.bg-image {
   overflow: hidden;
-  position: relative;  
+  position: relative;
 }
 main .section.bg-image picture {
   display: block;
@@ -813,14 +830,14 @@ main .section.bg-image picture {
 }
 main .section.bg-image .sec-img {
   width: 100%;
-  height: auto;           
-  object-fit: contain;    
-  position: static;       
+  height: auto;
+  object-fit: contain;
+  position: static;
   top: auto;
   left: auto;
   z-index: auto;
 }
-  
+
 main .section.bg-image > .default-content-wrapper {
   position: absolute;
   inset: 0;
@@ -869,9 +886,9 @@ main .section.section-has-bg > div {
     --body-font-size-m: 18px;
     --body-font-size-s: 16px;
     --body-font-size-xs: 14px;
-    
+
     --heading-font-size-xxl: 40px;
-    --heading-font-size-xl: 34px; 
+    --heading-font-size-xl: 34px;
     --heading-font-size-l: 28px;
     --heading-font-size-m: 24px;
     --heading-font-size-s: 20px;
@@ -897,7 +914,7 @@ main .section.section-has-bg > div {
     --body-font-size-m: 16px;
     --body-font-size-s: 14px;
     --body-font-size-xs: 12px;
-    
+
     --heading-font-size-xxl: 32px;
     --heading-font-size-xl: 28px;
     --heading-font-size-l: 24px;
@@ -1012,11 +1029,11 @@ table {
   color: var(--main-accent-color)!important;
   border:2px solid var(--main-accent-color) !important;
   border-color: var(--main-accent-color) !important;
- 
+
 }
 
  .cta-button-secondary a.button::after {
-  
+
     content: "\f105";
     font-family: 'Font Awesome 5 Solid';
     color: var(--main-accent-color) !important;
@@ -1028,7 +1045,7 @@ table {
 .cta-button-secondary a.button:hover {
   background-color: var(--main-accent-color)!important;
   color: var(--text-light) !important;
-  
+
   text-decoration: none;;
 }
 
@@ -1046,7 +1063,7 @@ table {
 .button-container.cta-link {
   margin-top: 5px !important;
 }
-/* Button focus state for accessibility 
+/* Button focus state for accessibility
  .button-container.cta-button a.button:focus {
   outline: 2px solid var(--main-accent-color);
   outline-offset: 2px;
