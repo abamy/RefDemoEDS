@@ -121,7 +121,7 @@ document.getElementsByTagName('head')[0].appendChild(meta);
 const metaPreview = document.createElement('meta');
 metaPreview.name = 'urn:adobe:aue:config:preview';
 
-const siteName = url.match(/\/content\/([^\/]+)/)[1];
+const siteName = url.match(/\/content\/language-masters\/([^\/]+)/)[1];
 
 const path = url
   .replace(/\/content\/[^\/]+/, '')
@@ -131,7 +131,7 @@ const path = url
 metaPreview.content = `http://main--${siteName}--abamy.aem.page${path}`;
 document.head.appendChild(metaPreview);
 
-if (!url.includes('/master/')) {
+if (!url.includes('/language-masters/')) {
   document.querySelectorAll('[data-aue-type]').forEach((el) => {
     if (
       el.tagName.toLowerCase() === 'body'
