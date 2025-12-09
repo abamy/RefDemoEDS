@@ -121,14 +121,12 @@ document.getElementsByTagName('head')[0].appendChild(meta);
 const metaPreview = document.createElement('meta');
 metaPreview.name = 'urn:adobe:aue:config:preview';
 
-const siteName = url.match(/\/content\/language-masters\/([^\/]+)/)[1];
-
 const path = url
   .replace(/\/content\/[^\/]+/, '')
   .replace('/templates/', '/pages/')
   .replace('.html', '');
 
-metaPreview.content = `http://main--${siteName}--abamy.aem.page${path}`;
+metaPreview.content = `http://main--refdemoeds--abamy.aem.page${path}`;
 document.head.appendChild(metaPreview);
 
 if (!url.includes('/language-masters/')) {
