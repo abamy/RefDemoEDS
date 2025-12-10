@@ -48,11 +48,11 @@
   margin-bottom: 0;
 }
 
-.carousel-container .carousel-wrapper .carousel .cards-card-body h1, 
-.carousel-container .carousel-wrapper .carousel .cards-card-body h2, 
-.carousel-container .carousel-wrapper .carousel .cards-card-body h3, 
-.carousel-container .carousel-wrapper .carousel .cards-card-body h4, 
-.carousel-container .carousel-wrapper .carousel .cards-card-body h5, 
+.carousel-container .carousel-wrapper .carousel .cards-card-body h1,
+.carousel-container .carousel-wrapper .carousel .cards-card-body h2,
+.carousel-container .carousel-wrapper .carousel .cards-card-body h3,
+.carousel-container .carousel-wrapper .carousel .cards-card-body h4,
+.carousel-container .carousel-wrapper .carousel .cards-card-body h5,
 .carousel-container .carousel-wrapper .carousel .cards-card-body h6 {
   margin: 0;
   padding: 0;
@@ -441,32 +441,24 @@
   }
 
 
-  .carousel-container .carousel-wrapper .carousel .cards-card-body h1, 
-  .carousel-container .carousel-wrapper .carousel .cards-card-body h2, 
-  .carousel-container .carousel-wrapper .carousel .cards-card-body h3, 
-  .carousel-container .carousel-wrapper .carousel .cards-card-body h4, 
-  .carousel-container .carousel-wrapper .carousel .cards-card-body h5, 
+  .carousel-container .carousel-wrapper .carousel .cards-card-body h1,
+  .carousel-container .carousel-wrapper .carousel .cards-card-body h2,
+  .carousel-container .carousel-wrapper .carousel .cards-card-body h3,
+  .carousel-container .carousel-wrapper .carousel .cards-card-body h4,
+  .carousel-container .carousel-wrapper .carousel .cards-card-body h5,
   .carousel-container .carousel-wrapper .carousel .cards-card-body h6 {
     margin: 0;
     padding: 0;
     font-size: 16px;
   }
-  
+
 
 }
 
-@media (width < 768px) { 
+@media (width < 768px) {
 
   .carousel-container .carousel-wrapper .carousel {
     padding: 0 4%;
   }
 
 }
-
-
-
-
-
-
-
-

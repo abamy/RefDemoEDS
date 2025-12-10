@@ -73,24 +73,23 @@
     width: 100%;
     margin: 20px 0;
   }
-  .columns-container .columns-wrapper .columns .columns-row h1, 
-  .columns-container .columns-wrapper .columns .columns-row h2, 
-  .columns-container .columns-wrapper .columns .columns-row h3, 
-  .columns-container .columns-wrapper .columns .columns-row h4, 
-  .columns-container .columns-wrapper .columns .columns-row h5, 
+  .columns-container .columns-wrapper .columns .columns-row h1,
+  .columns-container .columns-wrapper .columns .columns-row h2,
+  .columns-container .columns-wrapper .columns .columns-row h3,
+  .columns-container .columns-wrapper .columns .columns-row h4,
+  .columns-container .columns-wrapper .columns .columns-row h5,
   .columns-container .columns-wrapper .columns .columns-row h6 {
     margin: 0;
     padding: 0;
     font-size: 20px;
   }
-  
+
 }
 
-@media (width < 768px) { 
+@media (width < 768px) {
 
   .columns-container .columns-wrapper {
     padding: 0 4%;
   }
 
 }
-

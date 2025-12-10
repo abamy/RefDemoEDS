@@ -15,12 +15,12 @@ export default async function decorate(block) {
   const langCode = getLanguage();
   const siteName = await getSiteName();
   const isAuthor = isAuthorEnvironment();
-  let footerPath =`/${langCode}/footer`;
+  let footerPath = `/${langCode}/footer`;
 
-  if(isAuthor){
+  if (isAuthor) {
     footerPath = footerMeta
-    ? new URL(footerMeta, window.location).pathname
-    : `/content/${siteName}${PATH_PREFIX}/${langCode}/footer`;
+      ? new URL(footerMeta, window.location).pathname
+      : `/content/${siteName}${PATH_PREFIX}/${langCode}/footer`;
   }
 
   /*
@@ -34,7 +34,7 @@ export default async function decorate(block) {
   const footerPath = parentPath=='/' ? footerMeta ? new URL(footerMeta, window.location).pathname : '/footer' : footerMeta ? new URL(footerMeta, window.location).pathname : parentPath+'/footer';
   //console.log("footerPath footer: ", footerPath);
   */
-  
+
   const fragment = await loadFragment(footerPath);
 
   // decorate footer DOM

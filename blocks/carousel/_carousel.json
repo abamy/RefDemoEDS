@@ -40,9 +40,7 @@
   "filters": [
     {
       "id": "carousel",
-      "components": [
-        "card"
-      ]
+      "components": ["card"]
     }
   ]
 }

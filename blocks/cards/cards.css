@@ -58,7 +58,7 @@
   list-style: disc;
 }
 
-.cards .cards-card-body p, 
+.cards .cards-card-body p,
 .cards .cards-card-body li {
   font-size: var(--body-font-size-xs);
   line-height: 28px;
@@ -426,13 +426,13 @@
     flex-direction: column;
   }
 
-  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h1, 
-  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h2, 
-  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h3, 
-  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h4, 
-  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h5, 
+  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h1,
+  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h2,
+  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h3,
+  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h4,
+  .cards-container .cards-wrapper .cards > ul > li .cards-card-body h5,
   .cards-container .cards-wrapper .cards > ul > li .cards-card-body h6 {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     font-size: 20px;
   }
@@ -456,5 +456,5 @@
   .cards-container .cards-wrapper {
     padding: 0 4%;
   }
-  
+
 }

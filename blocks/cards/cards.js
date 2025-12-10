@@ -13,7 +13,7 @@ export default function decorate(block) {
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
     const li = document.createElement('li');
-    
+
     // Read card style from the third div (index 2)
     const styleDiv = row.children[2];
     const styleParagraph = styleDiv?.querySelector('p');
@@ -21,15 +21,15 @@ export default function decorate(block) {
     if (cardStyle && cardStyle !== 'default') {
       li.className = cardStyle;
     }
-    
+
     // Read CTA style from the fourth div (index 3)
     const ctaDiv = row.children[3];
     const ctaParagraph = ctaDiv?.querySelector('p');
     const ctaStyle = ctaParagraph?.textContent?.trim() || 'default';
-    
+
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
-    
+
     // Process the li children to identify and style them correctly
     [...li.children].forEach((div, index) => {
       // First div (index 0) - Image
@@ -61,16 +61,16 @@ export default function decorate(block) {
         div.className = 'cards-card-body';
       }
     });
-    
+
     // Apply CTA styles to button containers
     const buttonContainers = li.querySelectorAll('p.button-container');
-    buttonContainers.forEach(buttonContainer => {
+    buttonContainers.forEach((buttonContainer) => {
       // Remove any existing CTA classes
       buttonContainer.classList.remove('default', 'cta-button', 'cta-button-secondary', 'cta-button-dark', 'cta-default');
       // Add the correct CTA class
       buttonContainer.classList.add(ctaStyle);
     });
-    
+
     ul.append(li);
   });
   ul.querySelectorAll('picture > img').forEach((img) => {
@@ -78,7 +78,7 @@ export default function decorate(block) {
     moveInstrumentation(img, optimizedPic.querySelector('img'));
     img.closest('picture').replaceWith(optimizedPic);
   });
- 
+
   block.textContent = '';
   block.append(ul);
 }

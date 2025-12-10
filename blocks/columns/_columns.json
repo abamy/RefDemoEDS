@@ -40,20 +40,11 @@
   "filters": [
     {
       "id": "columns",
-      "components": [
-        "column"
-      ]
+      "components": ["column"]
     },
     {
       "id": "column",
-      "components": [
-        "text",
-        "image",
-        "button",
-        "title",
-        "dm-asset",
-        "video"
-      ]
+      "components": ["text", "image", "button", "title", "dm-asset", "video"]
     }
   ]
 }

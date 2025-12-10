@@ -273,7 +273,7 @@
 .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail a,
 .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail a,
 .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail a {
-  /* text-align: left; */ 
+  /* text-align: left; */
   /* align-self: flex-start; */
   color: var(--text-color);
 }
@@ -333,7 +333,7 @@
   .content-fragment-container .content-fragment-wrapper {
     padding: 0;
   }
-  
+
 }
 
 /* Responsive styles for all image layouts */
@@ -345,14 +345,14 @@
     flex-direction: column;
     background-position: center top;
   }
-  
+
   .content-fragment-wrapper .content-fragment .banner-content.image-left::before,
   .content-fragment-wrapper .content-fragment .banner-content.image-right::before {
     width: 100%;
     height: 300px;
     position: relative;
   }
-  
+
   .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail,
   .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail {
     margin-left: 0;
@@ -363,7 +363,7 @@
     text-align: center;
     align-items: center;
   }
-  
+
   /* Keep original margins for top/bottom layouts on tablet */
   .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail,
   .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail {
@@ -371,14 +371,14 @@
     text-align: center;
     align-items: center;
   }
-  
+
   .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail .cfdescription,
   .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail .cfdescription,
   .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail .cfdescription,
   .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail .cfdescription {
     text-align: center;
   }
-  
+
   .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail a,
   .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail a,
   .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail a,
@@ -393,14 +393,14 @@
   .content-fragment-wrapper .content-fragment .banner-content.image-right::before {
     height: 200px;
   }
-  
+
   .content-fragment-wrapper .content-fragment .banner-content.image-left .banner-detail,
   .content-fragment-wrapper .content-fragment .banner-content.image-right .banner-detail,
   .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail,
   .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail {
     padding: 30px 15px;
   }
-  
+
   /* Fix mobile image visibility for top/bottom layouts */
   .content-fragment-wrapper .content-fragment .banner-content.image-top {
     background-size: contain !important;
@@ -408,19 +408,19 @@
     background-repeat: no-repeat !important;
     min-height: 400px !important;
   }
-  
+
   .content-fragment-wrapper .content-fragment .banner-content.image-bottom {
     background-size: contain !important;
     background-position: center bottom !important;
     background-repeat: no-repeat !important;
     min-height: 400px !important;
   }
-  
+
   /* Adjust margins for mobile to ensure image visibility */
   .content-fragment-wrapper .content-fragment .banner-content.image-top .banner-detail {
     margin-top: 200px !important;
   }
-  
+
   .content-fragment-wrapper .content-fragment .banner-content.image-bottom .banner-detail {
     margin-bottom: 200px !important;
   }

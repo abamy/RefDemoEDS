@@ -20,7 +20,7 @@
     {
       "id": "dm-asset",
       "fields": [
-          {
+        {
           "component": "select",
           "name": "delivery_Type",
           "value": "dm",

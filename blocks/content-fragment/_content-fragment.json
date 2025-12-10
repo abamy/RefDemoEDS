@@ -35,7 +35,7 @@
           "value": "",
           "valueType": "string",
           "description": "Persisted variation for publish; leave empty for master.",
-          "condition": { "==": [ { "var": "__alwaysFalse" }, true ] }
+          "condition": { "==": [{ "var": "__alwaysFalse" }, true] }
         },
         {
           "component": "select",
@@ -62,7 +62,6 @@
               "name": "Image Bottom",
               "value": "image-bottom"
             }
-          
           ]
         },
         {
